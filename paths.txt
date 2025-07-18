@@ -1,0 +1,16 @@
+paths-Absolute path & Relative path
+images that we are taking about is entri.jpg
+-> src="entri.jpg" in the same folder as this file
+->src="images/entri.jpg" in the images folder and images folder is in the same folder as this file.
+->src="images/entri.jpg" in the images folder and images folder is at the root directory
+->src="images/entri.jpg" in the images folder is one level up from the folder where this file is located
+
+Which type of maping is preferred?
+Relative path is preferred because it is more flexible and easier to maintain. It is also more portable and easier
+
+where are paths used un html?
+->images
+style sheets(css)file
+js file
+external links 
+links to another html page of the same project.

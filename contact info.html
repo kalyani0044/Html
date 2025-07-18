@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact information</title>
+    <link rel="icon" type="image/x-icon" href="https://plus.unsplash.com/premium_photo-1682125776589-e899882259c3?q=80&w=742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+</head>
+<body>
+    <h3>Please fill the form for recognized online books</h3>
+    <form>
+    
+   <label>User Name:</label>
+    <input id="User Name" type="text" placeholder="enter ur name" required>
+    <br><br>
+    <label>Mob:</label>
+    <input type="number" max="10" placeholder="enter ur phno" required>
+    <br><br>
+    <label>Email:</label>
+    <input type="email" name="Usermail" placeholder="enter ur email" minlength="8" required>
+    <br><br>
+    <label>Password:</label>
+    <input type="password" placeholder="enter ur password" minlength="8" pattern="(?-.*\d)(?-.*[a-z])(?-.*[A-Z]).{8,}" required>
+    <br><br>
+    <label>Re enter psw:</label>
+    <input type="password" placeholder="Re enter ur psw" minlength="8" pattern="(?-.*\d)(?-.*[a-z])(?-.*[A-Z]).{8,}" required>
+    <br><br>
+    
+     <label>Age:</label>
+    <input type="number" min="18" required>
+    <br><br>
+    <h3>select gender </h3>
+     <label>Male:</label>
+    <input type="radio" name="gender" value="Male" required>
+    <br><br>
+    <label>FeMale:</label>
+    <input type="radio" name="gender" value="FeMale" required>
+    <br><br>
+    <label>Other:</label>
+    <input type="radio" name="gender" value="others" required>
+    <br><br>
+    <label>DOB:</label>
+    <input type="date" min="1925-01-01" max="2025-01-01"required>
+    <br><br>
+    <h3>select ur country</h3>
+    <select id="drop country list">
+      <option>select</option>
+ <option>India</option>
+<option>USA</option>
+<option>Indonesia</option>
+<option>Africa</option>
+    </select>
+
+<h3>Languages known</h3>
+<input type="checkbox" id="checkvalue" >Telugu
+<br><br>
+<input type="checkbox" id="checkvalue" >Hindi
+<br><br>
+<input type="checkbox" id="checkvalue" >Malayalam
+<br><br>
+<input type="checkbox" id="checkvalue" >English
+<br><br>
+<input type="checkbox" id="checkvalue" >Tamil
+<br><br>
+<input type="button" id="btnsubmit" value="Submit">
+</form>
+<hr>
+<footer>
+    <p><b>kalyani:</b>Copyright &copy; The Library</p>
+</footer>
+</body>
+</html>
